@@ -1,12 +1,11 @@
 # Card Slider Demo 🎴
 
-A responsive **card slider (carousel) demo** built using **HTML, CSS, JavaScript**, and **Swiper.js**.  
+A responsive **card slider (carousel) demo** built using **HTML, CSS, JavaScript**.  
 This project demonstrates a modern card-based UI with smooth animations, pagination, and navigation controls.
 
 ## 🚀 Features
 
 - 📱 Fully responsive design (mobile, tablet, desktop)
-- 🔁 Infinite looping slider
 - 🎯 Pagination bullets & navigation arrows
 - 🎨 Modern card layout with hover effects
 
@@ -15,7 +14,6 @@ This project demonstrates a modern card-based UI with smooth animations, paginat
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Swiper.js v12
 - Google Fonts (Inter)
 - Material Symbols Icons
 
