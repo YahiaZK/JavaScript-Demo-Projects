@@ -25,7 +25,8 @@
 .container::before {
   content: "";
   width: 180px;
-  height: 180px;
+  min-height: 180px;
+  height: auto;
   background-color: #f41b75;
   border-radius: 5px;
   position: absolute;
@@ -84,4 +85,35 @@
   content: "SEC";
 }
 
+.stopwatch-container {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(235, 0, 255, 0.11);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(40px);
+}
 
+.stopwatch {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.buttons button {
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background: #f41b75;
+  color: white;
+}
